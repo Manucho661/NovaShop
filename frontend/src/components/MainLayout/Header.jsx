@@ -5,7 +5,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#002B5B] text-white shadow-md sticky top-0 z-50">
+    <header className="bg-white text-[#002B5B] shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
         
         {/* Logo */}
@@ -77,7 +77,7 @@ export default function Header() {
           menuOpen ? "block" : "hidden"
         } md:flex md:justify-center bg-[#001E3A] text-sm`}
       >
-        <ul className="flex flex-col md:flex-row items-center md:space-x-8 px-6 md:px-0 py-3 md:py-2">
+        <ul className="flex flex-col md:flex-row items-center md:space-x-8 px-6 md:px-0 py-3 md:py-2 text-white">
           <li><a href="#" className="hover:text-[#ec5b53] transition py-1 block">Home</a></li>
           <li><a href="#" className="hover:text-[#ec5b53] transition py-1 block">Shop</a></li>
           <li><a href="#" className="hover:text-[#ec5b53] transition py-1 block">Deals</a></li>
